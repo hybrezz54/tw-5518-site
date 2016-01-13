@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+#header {
+  background-color: #a80000;
+}
+
 body {
   background: #ddd;
 }
@@ -91,10 +95,6 @@ hr {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-}
-
-#header {
-  background-color: #a80000;
 }
 
 #header li:hover {
