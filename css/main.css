@@ -20,7 +20,8 @@ body {
 }
 
 #wrapper {
-	width: 500px;
+	width: 960px;
+	height: 300px;
 	margin: 0 auto;
 }
 
