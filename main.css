@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Arial';
+    background: #d5d5d5;
+}
+
+/*  960px max threshold */
+#main-section {
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#main-navbar {
+    background: #A80000;
+    background: -webkit-linear-gradient(#A80000, #CC0000);
+    background: -o-linear-gradient(#A80000, #CC0000);
+    background: -moz-linear-gradient(#A80000, #CC0000);
+    background: linear-gradient(#A80000, #f74848);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 2px 1px rgba(0,0,0,0.25);
+}
+
+#main-logo {
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-links > li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 5px 20px;
+    list-style-type: none;
+}
+
+
+#nav-links {
+    background: #A80000;
+    /*background: -webkit-linear-gradient(#cc2d2d, #c70000);
+    background: -o-linear-gradient(#cc2d2d, #c70000);
+    background: -moz-linear-gradient(#cc2d2d, #c70000);
+    background: linear-gradient(#cc2d2d, #c70000);*/
+    text-align: center;
+}
+
+#nav-links > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -webkit-transition-property: border-bottom;
+    -webkit-transition-duration: .1s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+#nav-links > li > a:hover {
+    color: #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+#nav-links > li > a:active {
+    color: #b0b0b0;
+    border-bottom: 2px solid #b0b0b0;
+}
+
+#spacer {
+    height: 160px;
+}
+
+article {
+    width: 60%;
+    display: block;
+    float: left;
+}
+
+aside {
+    width: 24%;
+    float: right;
+    display: block;
+}
+
+footer{
+    display: block;
+    float: left;
+    width: 92%;
+    text-align: center;
+}
+
+#social-icons img {
+    width: 90px;
+    padding: 5px;
+    fill:
+}
+
+#social-icons{
+    margin: auto;
+}
+
+#social-box h1 {
+    padding: 10px;
+    padding-left: 0px;
+    margin: 5px;
+    border-bottom: 3px #aaa solid;
+}
+
+article, aside, footer, #focus-pic {
+    padding: 2%;
+    margin: 2%;
+    box-shadow:0 1px 2px #aaa;
+    background: #fff;
+    animation: slide-up 1s;
+    border-radius:3px;
+    color: #555;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(20rem);
+        opacity: 0;
+    }
+}
