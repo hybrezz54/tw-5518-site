@@ -1,203 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="The official website for FRC team 5518, the Techno Wolves">
+        <meta name="keywords" content="FIRST Robotics Competition,robotics,NSCU,FRC,FIRST">
+        <title>Techno Wolves</title>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Techno Wolves | Leading the Pack</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
-    <link rel="stylesheet" href="./css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='main' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
 
-  <body>
-
-    <nav id="header" class="nav navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img style="max-width: 300px; margin-top: 10px; margin-right: 10px;" class="img-responsive" src="./img/tw_logo.png" alt="">
-          </a>
-          <div role="separator" class="divider-vertical"></div>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#about" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                ABOUT<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">SUPPORT</a></li>
-            <li><a href="sponsors.html">SPONSORS</a></li>
-            <li><a href="#news">NEWS</a></li>
-            <li><a href="#media">MEDIA</a></li>
-            <li><a href="#resources">RESOURCES</a></li>
-            <li>
-              <a id="menu-icon" href="#menu"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div id="main">
-
-      <div class="container">
-        <div id="wrapper">
-        <div class="slider single-item">
-          <div>
-            <img class="vert" src="./img/tw_logo.png" alt="..." />
-          </div>
-          <div>
-            <img class="vert" src="http://www.technowolves.org/wp-content/uploads/2015/03/IMG_0212-640x300.jpg" alt="..." />
-          </div>
-       </div>
-      </div>
-      </div>
-
-      <!--About Us-->
-      <div class="container">
-        <div class="jumbotron img-banner" id="main-banner">
-          <div class="row">
-
-            <div class="col-md-8">
-              <h1>About Us</h1>
-              <p class="description">Founded in 2014, the Techno Wolves is a student led FIRST Robotics Competition team based in Raleigh, North Carolina.
-               Although having recently transitioned into a community-based organization, our 50-student club still maintains a strong relationship with Wake STEM <span class='smaller'>(Science, Technology, Engineering, and Math)</span> Early College High School. 
-               We not only plan on building an awesome robot, but also aim to build a better future by enriching our community through the STEM
-               fields and the core values of FIRST, such as Coopertition® and Gracious Professionalism®.
-              </p>
+    </head>
+    <body>
+    <div id="wrapper">
+        <nav id="main-navbar">
+            <div id="logo-bar">
+            <a href="index.html"><img id="main-logo" src="img/logos/main-logo-white.png"></a>
             </div>
-
-            <div class="col-md-4">
-              <img src="img/TechnoWolves (1).JPG" alt="img about us" class="img-responsive">
-              <hr style="border-color: #fff;" />
-              <p>
-                <a style="text-shadow: none;" class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
-                <a style="text-shadow: none;" class="btn btn-primary btn-lg" href="#support" role="button">Donate</a>
-              </p>
+            <ul id="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#support">SUPPORT</a></li>
+                <li><a href="#sponsors">SPONSORS</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#media">MEDIA</a></li>
+                <li><a href="#resources">RESOURCES</a></li>
+            </ul>
+        </nav>
+        <section id="main-section">
+            <div id="spacer"></div>
+            <section id="focus-pic">
+                <img src="http://placekitten.com/g/880/300">
+            </section>
+            <div id="articles">
+                <article>
+                    <h1>We are the Techno Wolves...</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum dignissim sodales. Praesent massa ex, consectetur vehicula tristique id, rutrum eu sem. Aliquam mattis pharetra lacus, a tempor mauris tempus quis. Pellentesque rhoncus sapien non ante convallis convallis. Maecenas lacinia ipsum at libero fermentum, a feugiat ipsum fringilla. Pellentesque at consectetur metus. Donec diam dolor, molestie at dolor non, pellentesque vulputate lacus. Integer sed ligula vel lorem scelerisque porttitor commodo finibus elit. Donec mollis leo vitae purus accumsan laoreet.
+                    </p>
+                </article>
             </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="jumbotron vert" style="background-color: transparent; border-color: #000; border-width: 3px; border-style: solid none">
-          <p style="color: #000; font-size: 64px;">Social Media</p>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-8">
-            <div class="jumbotron" style="background-color: #a22;">
-
-              <h2><a href="#news">News</a></h2>
-              <hr />
-
-              <div>
-                <h3>Coat Drive</h3>
-                <em>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</em><br /><br />
-                <p><a class="btn btn-primary btn-sm" href="#" role="button">Read more...</a></p>
-              </div>
-
-              <hr />
-
-              <div>
-                <h3>Thanksgiving Break</h3>
-                <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
-                <p><a class="btn btn-primary btn-sm" href="#" role="button">Read more...</a></p>
-              </div>
-
-              <hr />
-
-              <div>
-                <h3>FRC Safety Animation Challenge</h3>
-                <em>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</em>
-                <p><a class="btn btn-primary btn-sm" href="#" role="button">Read more...</a></p>
-              </div>
-
-              <hr />
-
-              <div>
-                <h3>Team Applications Due!</h3>
-                <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
-                <p><a class="btn btn-primary btn-sm" href="#" role="button">Read more...</a></p>
-              </div>
-
+            <aside id="social-box">
+                <h1>Follow us on social media</h1>
+                <div id="social-icons">
+                <a href="mailto:name@host.com?subject=The%20Techno%20Wolves"><img src="img/icons/social/email.svg"></a>
+                <a href="https://www.instagram.com/technowolves/"><img src="img/icons/social/instagram.svg"></a>
+                <a href="https://www.facebook.com/TechnoWolves/"><img src="img/icons/social/facebook.svg"></a>
+                <a href="https://twitter.com/technowolves"><img src="img/icons/social/twitter.svg"></a>
             </div>
-          </div>
+            </aside>
+            <footer id="main-footer">
+                <small>
+                    &copy; 2015 Techno Wolves
+                </small>
+                <div>
+                  <a href="http://www.dreamhost.com/green.cgi">
+                  <img border="0" alt="Green Web Hosting! This site hosted by DreamHost."<img id="slide-img-1" src="http://www.technowolves.org/wp-content/themes/technowolve/technowolve/library/images/green1.png" class="slide" alt="" height="32" /></a>
 
-          <div class="col-md-4">
-            <div class="jumbotron" style="background-color: #a22;">
-              <a class="twitter-timeline" href="https://twitter.com/technowolves" data-widget-id="672627494315511809" data-chrome="transparent noheader noscrollbar">Tweets by @technowolves</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
+                  <a href="http://onlyoffice.com?campaign=nonprofit" target="_blank" style="cursor: pointer;" rel="me nofollow">
+                    <img alt="We Use ONLYOFFICE™ Online Office" title="We Use ONLYOFFICE™ Online Office" src='http://www.onlyoffice.com/images/banners/en-US/468-x-60-06.gif' height="40" />
+                  </a>
+                </div>
+            </footer>
+        </section>
+    </body>
     </div>
-    <!-- div "main" end -->
-
-    <div id="footer">
-      <div class="container-fluid vert">
-
-        <div>
-          <a href="http://www.dreamhost.com/green.cgi">
-          <img border="0" alt="Green Web Hosting! This site hosted by DreamHost."<img id="slide-img-1" src="http://www.technowolves.org/wp-content/themes/technowolve/technowolve/library/images/green1.png" class="slide" alt="" height="32" /></a>
-
-          <a href="http://onlyoffice.com?campaign=nonprofit" target="_blank" style="cursor: pointer;" rel="me nofollow">
-            <img alt="We Use ONLYOFFICE™ Online Office" title="We Use ONLYOFFICE™ Online Office" src='http://www.onlyoffice.com/images/banners/en-US/468-x-60-06.gif' height="40" />
-          </a>
-        </div>
-
-      </div>
-    </div>
-
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.slider').slick({
-          arrows: true,
-          dots: true,
-          centerMode: true,
-          slidesToShow: 1,
-          infinite: true,
-          adaptiveHeight: false,
-          fade: false
-        });
-      });
-    </script>
-
-  </body>
-
 </html>
