@@ -1,4 +1,5 @@
-jQuery(document).ready(function($) {            
+// function - on scroll, navbar shrinks
+(document).ready(function($) {            
     $(window).scroll(function() {  
         // var scroll 		= $(this).scrollTop();
         var nav 		= $('#main-navbar');
