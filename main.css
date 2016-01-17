@@ -98,6 +98,10 @@ article {
     float: left;
 }
 
+#articles article {
+    text-align: center;
+}
+
 aside {
     width: 24%;
     float: right;
