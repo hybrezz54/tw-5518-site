@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {            
     $(window).scroll(function() {  
         // var scroll 		= $(this).scrollTop();
-        var nav 		= $('#main-nav');
+        var nav 		= $('#main-navbar');
           
         nav.addClass('second-state');
           
