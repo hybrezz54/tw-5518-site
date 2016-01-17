@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
         // var scroll 		= $(this).scrollTop();
         var nav 		= $('#main-nav');
           
-        nan.addClass('second-state');
+        nav.addClass('second-state');
           
         // if (scroll > 200) {
         //     nav.addClass('second-state');
