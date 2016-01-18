@@ -32,13 +32,19 @@ body {
     z-index: 100;
 }
 
+#nav-bar {
+    position: relative;
+}
+
 #header.second-state {
     height: 15%;
+    position: absolute;
 }
 
 #header.second-state li a {
     padding-top: 15px;
     padding-bottom: 15px;
+    position: absolute;
 }
 
 #main-logo {
