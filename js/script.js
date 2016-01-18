@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     
-    /ono scroll, navbar shrinks
+    // on scroll, navbar shrinks
     $(window).scroll(function() {
         var scroll 		= $(this).scrollTop();
         var nav 		= $('#header');
@@ -8,10 +8,9 @@ jQuery(document).ready(function($) {
         // nav.addClass('#main-navbar.second-state');
 
         if (scroll > 200) {
-            nav.addClass('#main-navbar.second-state');
+            nav.addClass('second-state');
         } else {
-            nav.removeClass('#main-navbar.second-state');
-
+            nav.removeClass('second-state');
         }
     });
 
