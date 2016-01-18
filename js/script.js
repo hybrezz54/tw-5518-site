@@ -1,16 +1,16 @@
 jQuery(document).ready(function($) {
-
-    // function - on scroll, navbar shrinks
+    
+    /ono scroll, navbar shrinks
     $(window).scroll(function() {
         var scroll 		= $(this).scrollTop();
-        var nav 		= $('#main-navbar');
+        var nav 		= $('#header');
 
         // nav.addClass('#main-navbar.second-state');
 
         if (scroll > 200) {
             nav.addClass('#main-navbar.second-state');
         } else {
-          nav.removeClass('#main-navbar.second-state');
+            nav.removeClass('#main-navbar.second-state');
 
         }
     });
