@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="description" content="The official website for FRC team 5518, the Techno Wolves">
         <meta name="keywords" content="FIRST Robotics Competition,robotics,NSCU,FRC,FIRST">
         <title>Techno Wolves</title>
 
-        <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='main' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-        <link rel="stylesheet" href="main.css">
-        <script src="script.js"></script>
-
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
     </head>
+
     <body>
-    <div id="wrapper">
-        <nav id="main-navbar">
+      <div id="wrapper">
+
+        <div id="header">
             <div id="logo-bar">
             <a href="index.html"><img id="main-logo" src="img/logos/main-logo-white.png"></a>
             </div>
@@ -27,43 +28,68 @@
                 <li><a href="#media">MEDIA</a></li>
                 <li><a href="#resources">RESOURCES</a></li>
             </ul>
-        </nav>
-        
-        <section id="main-section">
-            <div id="spacer"></div>
-            <section id="focus-pic">
-                <img src="http://placekitten.com/g/880/300">
-            </section>
-            <div id="articles">
-                <article>
-                    <h1>We are the Techno Wolves...</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum dignissim sodales. Praesent massa ex, consectetur vehicula tristique id, rutrum eu sem. Aliquam mattis pharetra lacus, a tempor mauris tempus quis. Pellentesque rhoncus sapien non ante convallis convallis. Maecenas lacinia ipsum at libero fermentum, a feugiat ipsum fringilla. Pellentesque at consectetur metus. Donec diam dolor, molestie at dolor non, pellentesque vulputate lacus. Integer sed ligula vel lorem scelerisque porttitor commodo finibus elit. Donec mollis leo vitae purus accumsan laoreet.
-                    </p>
-                </article>
-            </div>
-            <aside id="social-box">
-                <h1>Follow us on social media</h1>
-                <div id="social-icons">
-                    <a href="mailto:name@host.com?subject=The%20Techno%20Wolves"><img src="img/icons/social/email.svg"></a>
-                    <a href="https://www.instagram.com/technowolves/"><img src="img/icons/social/instagram.svg"></a>
-                    <a href="https://www.facebook.com/TechnoWolves/"><img src="img/icons/social/facebook.svg"></a>
-                    <a href="https://twitter.com/technowolves"><img src="img/icons/social/twitter.svg"></a>
-                </div>
-            </aside>
-            <footer id="main-footer">
-                <small>
-                    &copy; 2015 Techno Wolves
-                </small>
-                <div>
-                  <a href="http://www.dreamhost.com/green.cgi">
-                  <img border="0" alt="Green Web Hosting! This site hosted by DreamHost."<img id="slide-img-1" src="http://www.technowolves.org/wp-content/themes/technowolve/technowolve/library/images/green1.png" class="slide" alt="" height="32" /></a>
+        </div>
 
-                  <a href="http://onlyoffice.com?campaign=nonprofit" target="_blank" style="cursor: pointer;" rel="me nofollow">
-                    <img alt="We Use ONLYOFFICE™ Online Office" title="We Use ONLYOFFICE™ Online Office" src='http://www.onlyoffice.com/images/banners/en-US/468-x-60-06.gif' height="40" />
-                  </a>
-                </div>
-            </footer>
-        </section>
+        <div id="spacer"></div>
+
+        <div id="img-slider">
+          <div class="slider">
+            <div>
+              <img class="vert" src="http://placekitten.com/g/880/300" />
+            </div>
+            <div>
+              <img class="vert" src="http://placekitten.com/g/880/300" />
+            </div>
+          </div>
+        </div>
+
+        <div id="content">
+
+            <article class="center">
+                <h1>The Techno Wolves</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum dignissim sodales. Praesent massa ex, consectetur vehicula tristique id, rutrum eu sem. Aliquam mattis pharetra lacus, a tempor mauris tempus quis. Pellentesque rhoncus sapien non ante convallis convallis. Maecenas lacinia ipsum at libero fermentum, a feugiat ipsum fringilla. Pellentesque at consectetur metus. Donec diam dolor, molestie at dolor non, pellentesque vulputate lacus. Integer sed ligula vel lorem scelerisque porttitor commodo finibus elit. Donec mollis leo vitae purus accumsan laoreet.
+                </p>
+            </article>
+
+            <aside>
+              <a class="twitter-timeline" href="https://twitter.com/technowolves" data-widget-id="672627494315511809" data-chrome="transparent noheader noscrollbar">Tweets by @technowolves</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+           </aside>
+
+           <article id="social-box" class="center">
+               <h1>Follow us on social media</h1>
+               <div id="social-icons">
+                   <a href="mailto:name@host.com?subject=The%20Techno%20Wolves"><img src="img/icons/social/email.svg"></a>
+                   <a href="https://www.instagram.com/technowolves/"><img src="img/icons/social/instagram.svg"></a>
+                   <a href="https://www.facebook.com/TechnoWolves/"><img src="img/icons/social/facebook.svg"></a>
+                   <a href="https://twitter.com/technowolves"><img src="img/icons/social/twitter.svg"></a>
+               </div>
+           </article>
+
+        </div>
+
+        <div id="footer">
+
+            <small>
+                &copy; 2015 Techno Wolves
+            </small>
+
+            <div>
+              <a href="http://www.dreamhost.com/green.cgi">
+              <img border="0" alt="Green Web Hosting! This site hosted by DreamHost."<img id="slide-img-1" src="http://www.technowolves.org/wp-content/themes/technowolve/technowolve/library/images/green1.png" class="slide" alt="" height="32" /></a>
+              <a href="http://onlyoffice.com?campaign=nonprofit" target="_blank" style="cursor: pointer;" rel="me nofollow">
+                <img alt="We Use ONLYOFFICE™ Online Office" title="We Use ONLYOFFICE™ Online Office" src='http://www.onlyoffice.com/images/banners/en-US/468-x-60-06.gif' height="40" />
+              </a>
+            </div>
+
+        </div>
+
+      </div>
+
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="js/slick.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+
     </body>
-    </div>
+
 </html>
