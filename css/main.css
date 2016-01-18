@@ -32,11 +32,11 @@ body {
     position: fixed;
 }
 
-#nav-links.second-state {
-    height: 50%;
+#header.second-state {
+    height: 50px;
 }
 
-#nav-links.second-state li a {
+#header.second-state li a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
