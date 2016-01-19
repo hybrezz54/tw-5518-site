@@ -67,6 +67,7 @@ body {
     background: -moz-linear-gradient(#cc2d2d, #c70000);
     background: linear-gradient(#cc2d2d, #c70000);*/
     text-align: center;
+    position: relative;
 }
 
 .nav-links > li > a {
