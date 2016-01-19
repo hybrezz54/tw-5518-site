@@ -23,7 +23,7 @@ body {
     height: auto;
 }
 
-#header {
+.header {
     background: #A80000;
     width: 100%;
     top: 0;
@@ -32,13 +32,13 @@ body {
     position: fixed;
 }
 
-#header.second-state {
+.header.second-state {
     height: 75px;    
     /*-webkit-transition: height 2s; */
     /*transition: height 2s;*/
 }
 
-#header.second-state li a {
+.header.second-state li a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
