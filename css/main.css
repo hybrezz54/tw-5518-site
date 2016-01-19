@@ -33,7 +33,7 @@ body {
 }
 
 #header.second-state {
-    height: 50%;    
+    height: 15%;    
     -webkit-transition: height 2s; 
     transition: height 2s;
 }
