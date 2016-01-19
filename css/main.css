@@ -32,13 +32,13 @@ body {
     position: fixed;
 }
 
-#header.second-state {
+#nav-bar.second-state {
     height: 50px;    
     -webkit-transition: height 2s; 
     transition: height 2s;
 }
 
-#header.second-state li a {
+#nav-bar.second-state li a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
