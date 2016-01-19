@@ -21,6 +21,12 @@ body {
     display: block;
     margin: 0 auto;
     height: auto;
+}i
+
+.logo-bar {
+    height: 100%;
+    width: auto;
+    text-align: center;
 }
 
 .header {
