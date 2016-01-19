@@ -36,7 +36,12 @@ body {
     height: 75px;    
     -webkit-transition: height 2s; 
     transition: height 2s;
+}#header.second-state li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+
 
 #main-logo {
     width: 480px;
