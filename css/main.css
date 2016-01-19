@@ -21,13 +21,13 @@ body {
     display: block;
     margin: 0 auto;
     height: auto;
-}i
-
-.logo-bar {
-    height: 100%;
-    width: auto;
-    text-align: center;
 }
+
+/*.logo-bar {*/
+/*    height: 100%;*/
+/*    width: auto;*/
+/*    text-align: center;*/
+/*}*/
 
 .header {
     background: #A80000;
@@ -38,13 +38,13 @@ body {
     position: fixed;
 }
 
-.header.second-state {
+.nav-links.second-state {
     height: 75px;    
     /*-webkit-transition: height 2s; */
     /*transition: height 2s;*/
 }
 
-.header.second-state li a {
+.nav-links.second-state li a {
     padding-top: 15px;
     padding-bottom: 15px;
 }

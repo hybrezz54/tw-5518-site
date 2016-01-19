@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     // on scroll, navbar shrinks
     $(window).scroll(function() {
         var scroll 		= $(this).scrollTop();
-        var nav 		= $('.header');
+        var nav 		= $('.nav-links');
 
         // nav.addClass('#main-navbar.second-state');
 
