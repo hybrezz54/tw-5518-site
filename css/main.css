@@ -111,7 +111,8 @@ h2 {
    position: absolute; 
    top: 200px; 
    left: 0; 
-   width: 100%; 
+   width: 100%;
+   text-align: center;
 }
 
 #spacer {
