@@ -104,7 +104,7 @@ body {
 
 .image { 
     position: relative;
-    width: auto; /* for IE 6 */
+    width: 100%; /* for IE 6 */
 }
 
 h2 { 
