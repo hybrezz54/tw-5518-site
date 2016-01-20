@@ -52,7 +52,6 @@ body {
     background: -moz-linear-gradient(#cc2d2d, #c70000);
     background: linear-gradient(#cc2d2d, #c70000);*/
     text-align: center;
-    position: fixed;
     transition: height .35s;
 }
 
