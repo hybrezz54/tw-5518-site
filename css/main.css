@@ -103,7 +103,7 @@ body {
 }
 
 .image { 
-    position: fixed;
+    position: relative;
     width: auto; /* for IE 6 */
 }
 
