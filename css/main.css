@@ -38,6 +38,24 @@ body {
     /*position: fixed;*/
 }
 
+#main-logo {
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links {
+    background: #A80000;
+    /*background: -webkit-linear-gradient(#cc2d2d, #c70000);
+    background: -o-linear-gradient(#cc2d2d, #c70000);
+    background: -moz-linear-gradient(#cc2d2d, #c70000);
+    background: linear-gradient(#cc2d2d, #c70000);*/
+    text-align: center;
+    position: fixed;
+    transition: height .35s;
+}
+
 .nav-links.second-state {
     height: 75px;    
     /*-webkit-transition: height 2s; */
@@ -49,13 +67,6 @@ body {
     padding-bottom: 15px;
 }
 
-#main-logo {
-    width: 480px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .nav-links > li{
     text-decoration: none;
     display: inline-block;
@@ -63,18 +74,6 @@ body {
     font-family: 'Open Sans';
     margin: 5px 20px;
     list-style-type: none;
-}
-
-
-.nav-links {
-    background: #A80000;
-    /*background: -webkit-linear-gradient(#cc2d2d, #c70000);
-    background: -o-linear-gradient(#cc2d2d, #c70000);
-    background: -moz-linear-gradient(#cc2d2d, #c70000);
-    background: linear-gradient(#cc2d2d, #c70000);*/
-    text-align: center;
-    position: fixed;
-    transition: height .35s;
 }
 
 .nav-links > li > a {
