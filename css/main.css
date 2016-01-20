@@ -57,7 +57,7 @@ body {
 }
 
 .nav-links.second-state {
-    height: 75px;    
+    height: 25px;    
     /*-webkit-transition: height 2s; */
     /*transition: height 2s;*/
 }
