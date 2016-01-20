@@ -35,7 +35,7 @@ body {
     top: 0;
     box-shadow: 0px 2px 1px rgba(0,0,0,0.25);
     z-index: 100;
-    /*position: fixed;*/
+    position: fixed;
 }
 
 #main-logo {
@@ -57,7 +57,7 @@ body {
 }
 
 .nav-links.second-state {
-    height: 25px;    
+    height: 50%   
     /*-webkit-transition: height 2s; */
     /*transition: height 2s;*/
 }
