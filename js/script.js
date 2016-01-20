@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-    
+
     // on scroll, navbar shrinks
     $(window).scroll(function() {
         var scroll 		= $(this).scrollTop();
@@ -15,8 +15,8 @@ jQuery(document).ready(function($) {
     });
 
     $('.slider').slick({
-      arrows: true,
-      dots: true,
+      arrows: false,
+      dots: false,
       centerMode: true,
       slidesToShow: 1,
       infinite: true,
