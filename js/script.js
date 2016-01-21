@@ -21,7 +21,8 @@ jQuery(document).ready(function($) {
       slidesToShow: 1,
       infinite: true,
       adaptiveHeight: false,
-      fade: false
+      fade: false,
+      variableWidth: false
     });
 
 });
