@@ -22,11 +22,7 @@ jQuery(document).ready(function($) {
       infinite: true,
       adaptiveHeight: false,
       fade: false,
-<<<<<<< HEAD
       variableWidth: false
-=======
-    //   variableWidth: false
->>>>>>> origin/master
     });
 
 });
