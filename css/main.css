@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Arial';
-    background: #e3e3e3;
+    background: #e5e5e5;
 }
 
 .vert {
@@ -23,13 +23,7 @@ body {
     height: auto;
 }
 
-/*.logo-bar {*/
-/*    height: 100%;*/
-/*    width: auto;*/
-/*    text-align: center;*/
-/*}*/
-
-.header {
+#header {
     background: #A80000;
     width: 100%;
     top: 0;
@@ -38,14 +32,18 @@ body {
     position: fixed;
 }
 
-#main-logo {
-    width: 480px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#header > div {
+    margin: 0 auto;
 }
 
-.nav-links {
+nav.side {
+  background: #7f7f7f;
+  width: 20%;
+  height: 100%;
+  float: right;
+}
+
+nav.main {
     background: #A80000;
     /*background: -webkit-linear-gradient(#cc2d2d, #c70000);
     background: -o-linear-gradient(#cc2d2d, #c70000);
@@ -53,30 +51,35 @@ body {
     background: linear-gradient(#cc2d2d, #c70000);*/
     text-align: center;
     transition: height .35s;
+    margin: 0 5%;
 }
 
-.nav-links.second-state {
+nav.main > ul {
+    transform: translateY(80%);
+}
+
+nav.second-state {
     height: 20px
     text-align: center;
     /*-webkit-transition: height 2s; */
     /*transition: height 2s;*/
 }
 
-.nav-links.second-state li a {
+nav.main li a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.nav-links > li {
+nav.main > ul > li {
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Open Sans';
     margin: 5px 20px;
     list-style-type: none;
 }
 
-.nav-links > li > a {
+nav.main a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -90,25 +93,26 @@ body {
     -webkit-transition-timing-function: ease-in-out;
 }
 
-.nav-links > li > a:hover {
+nav.main > ul > li > a:hover {
     color: #d0d0d0;
     /*border-bottom: 1px solid #d0d0d0;*/
     text-decoration: none;
 }
 
-.nav-links > li > a:active {
+nav > ul > li > a:active {
     color: #b0b0b0;
     /*border-bottom: 2px solid #b0b0b0;*/
     text-decoration: none;
 }
 
 .spacer {
-    height: 155px;
+    height: 120px;
 }
 
 .about {
     width: 100%;
     height: 400px;
+    overflow: hidden;
 }
 
 .about .image {
@@ -164,13 +168,6 @@ section.feature {
   width: 100%;
 }
 
-nav.side {
-  background: #7f7f7f;
-  width: 20%;
-  height: 100%;
-  float: right;
-}
-
 #footer {
     clear: left;
     display: block;
@@ -221,6 +218,12 @@ article, aside, #footer, #social-box {
     border-radius: 3px;
     color: #555;
     line-height: 1.5em;
+}
+
+.logo > a > img {
+  width: 480px;
+  display: block;
+  float: left;
 }
 
 @keyframes slide-up {
