@@ -17,12 +17,16 @@ jQuery(document).ready(function($) {
     $('.slider').slick({
       arrows: false,
       dots: false,
-      centerMode: true,
+      centerMode: false,
       slidesToShow: 1,
       infinite: true,
       adaptiveHeight: false,
       fade: false,
+<<<<<<< HEAD
       variableWidth: false
+=======
+    //   variableWidth: false
+>>>>>>> origin/master
     });
 
 });
