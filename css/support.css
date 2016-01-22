@@ -8,10 +8,12 @@ h1, p {
   width: 100%;
 }
 
-.title h1 {
+.title > .subcontent {
   position: relative;
   top: 60%;
-  margin-left: 70px;
+}
+
+.title > .subcontent > h1 {
   letter-spacing: 2px;
   font-size: 48px;
 }
@@ -20,7 +22,7 @@ h1, p {
   display: table;
   width: 100%;
   table-layout: fixed;
-  border-spacing: 100px;
+  border-spacing: 50px;
 }
 
 .column {
