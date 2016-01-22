@@ -8,6 +8,10 @@ body {
     background: #e5e5e5;
 }
 
+.clearfix {
+  overflow: visible;
+}
+
 .vert {
   vertical-align: middle;
   width: 100%;
@@ -189,7 +193,7 @@ section.feature {
     background-color: #ccc !important;
     width: 960px;
     text-align: center;
-    margin: 750px auto 20px auto !important;
+    margin: 0px auto 20px auto !important;
     height: 50px;
 }
 
