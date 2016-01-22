@@ -142,7 +142,7 @@ nav > ul > li > a:active {
 }
 
 article {
-    width: 60%;
+    width: 64%;
     display: block;
     float: left;
 }
@@ -186,10 +186,15 @@ section.feature {
 #footer {
     clear: left;
     display: block;
+    background-color: #ca6666 !important;
     width: 960px;
     text-align: center;
     margin: 750px auto 20px auto !important;
     height: 50px;
+}
+
+#footer < small {
+  color: #000;
 }
 
 #social-icons img {
@@ -204,6 +209,7 @@ section.feature {
 
 #social-box {
   float: left;
+  width: 64%;
 }
 
 #social-box h1 {
