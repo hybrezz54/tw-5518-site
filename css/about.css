@@ -8,32 +8,59 @@ body {
     background: #c4c4c4;
 }
 
-#left-img-span {
+#top-row span {
     display: inline-block;
 }
 
-#left-img {
+#top-row img {
     position: absolute;
     width: 50%;
     margin-top: 50px;
     margin-left: 50px;
     border: 3px solid black;
-
 }
 
-#right-content {
+#top-content {
     position: absolute;
-    right: 150px;
+    right: 50px;
     width: 30%;
     padding: 10px;
     margin-top: 50px;
     height: 50%
 }
 
-#right-content p {
+#top-content p {
     text-align: center;
     font-size: 200%;
 }
+
+/*#middle-row span {
+    display: inline-block;
+}
+
+#middle-row img {
+    position: absolute;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 3px solid black;
+    right: 50px;
+
+}
+
+#middle-content {
+    position: absolute;
+    left: 150px;
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    height: 50%
+}
+
+#middle-content p {
+    text-align: center;
+    font-size: 200%;
+}*/
 
 #smaller {
     font-size: 70%;
