@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
       infinite: true,
       adaptiveHeight: false,
       fade: false,
-    //   variableWidth: false
+      variableWidth: false
     });
 
 });
