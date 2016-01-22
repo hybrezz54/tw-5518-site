@@ -40,6 +40,15 @@ body {
     margin: 0 auto;
 }
 
+#logo {
+  float: left;
+  width: 480px;
+}
+
+#logo > a > img {
+  width: 100%;
+}
+
 nav.side {
   background: #7f7f7f;
   width: 20%;
@@ -60,6 +69,7 @@ nav.main {
 
 nav.main > ul {
     transform: translateY(80%);
+    float: right;
 }
 
 nav.second-state {
@@ -82,20 +92,6 @@ nav.main > ul > li {
     margin: 5px 20px;
     list-style-type: none;
     line-height: 1.5em;
-}
-
-@media screen and (max-width: 1366px) {
-  nav.main > ul > li {
-    font-size: 18px;
-    margin: 10px 15px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  nav.main > ul > li {
-    font-size: 16px;
-    margin: 15px 10px;
-  }
 }
 
 nav.main a {
@@ -187,18 +183,29 @@ section.feature {
   width: 100%;
 }
 
+div.subcontent {
+  width: 66%;
+  margin: 0 auto;
+}
+
 #footer {
     clear: left;
     display: block;
-    background-color: #ccc !important;
+    background-color: #a80000!important;
     width: 960px;
     text-align: center;
     margin: 20px auto 20px auto !important;
     height: 50px;
 }
 
-#footer < small {
-  color: #000;
+#footer > small {
+  color: #fff;
+}
+
+#footer > div > a > img {
+  border: 2px solid #fff;
+  height: 40px;
+  width: auto;
 }
 
 #social-icons img {
@@ -245,15 +252,138 @@ article, aside, #footer, #social-box {
     line-height: 1.5em;
 }
 
-.logo > a > img {
-  width: 480px;
-  display: block;
-  float: left;
-}
-
 @keyframes slide-up {
     from {
         transform: translateY(20rem);
         opacity: 0;
     }
+}
+
+@media screen and (max-width: 1366px) {
+  #logo {
+    width: 350px;
+  }
+
+  nav.main > ul {
+      transform: translateY(40%);
+  }
+
+  nav.main > ul > li {
+    font-size: 18px;
+    margin: 15px 10px;
+  }
+
+  .spacer {
+    height: 95px;
+  }
+
+  .about > .image > article {
+      margin-top: 3%;
+      width: 30%;
+  }
+
+  article h1 {
+    font-size: 26px;
+  }
+
+  article p {
+    font-size: 18px;
+  }
+
+  #social-icons img {
+      width: 80px;
+  }
+
+  div.subcontent {
+    width: 72%
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #logo {
+    width: 300px;
+  }
+
+  nav.main > ul {
+      transform: translateY(40%);
+  }
+
+  nav.main > ul > li {
+    font-size: 16px;
+    margin: 10px 10px;
+  }
+
+  .spacer {
+    height: 80px;
+  }
+
+  .about > .image > article {
+      margin-top: 5%;
+      width: 30%;
+  }
+
+  article h1 {
+    font-size: 24px;
+  }
+
+  article p {
+    font-size: 16px;
+  }
+
+  #social-icons img {
+      width: 70px;
+  }
+
+  div.subcontent {
+    width: 72%
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #logo {
+    width: 200px;
+  }
+
+  nav.main > ul {
+      transform: translateY(30%);
+  }
+
+  nav.main > ul > li {
+    font-size: 12px;
+    margin: 10px 10px;
+  }
+
+  .spacer {
+    height: 70px;
+  }
+
+  .about > .image > article {
+      margin-top: 5%;
+      width: 40%;
+  }
+
+  article h1 {
+    font-size: 20px;
+  }
+
+  article p {
+    font-size: 12px;
+  }
+
+  aside.sidebar {
+      width: 30%;
+  }
+
+  #social-box {
+    width: 52%;
+  }
+
+  #social-icons img {
+      width: 40px;
+  }
+
+  div.subcontent {
+    width: 84%
+  }
+
 }
