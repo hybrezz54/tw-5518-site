@@ -34,7 +34,7 @@ body {
     font-size: 200%;
 }
 
-/*#middle-row span {
+#middle-row span {
     display: inline-block;
 }
 
@@ -60,7 +60,7 @@ body {
 #middle-content p {
     text-align: center;
     font-size: 200%;
-}*/
+}
 
 #smaller {
     font-size: 70%;
