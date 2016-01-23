@@ -277,6 +277,10 @@ article, aside, #footer, #social-box {
     height: 95px;
   }
 
+  .feat-img {
+    top: -200px !important;
+  }
+
   .about > .image > article {
       margin-top: 3%;
       width: 30%;
@@ -317,6 +321,10 @@ article, aside, #footer, #social-box {
     height: 80px;
   }
 
+  .feat-img {
+    top: 0 !important;
+  }
+
   .about > .image > article {
       margin-top: 5%;
       width: 30%;
@@ -339,7 +347,7 @@ article, aside, #footer, #social-box {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 946px) {
   #logo {
     width: 200px;
   }
@@ -355,6 +363,10 @@ article, aside, #footer, #social-box {
 
   .spacer {
     height: 70px;
+  }
+
+  .feat-img {
+    top: 0 !important;
   }
 
   .about > .image > article {
