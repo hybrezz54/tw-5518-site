@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
     // on scroll, navbar shrinks
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
         var scroll 		= $(this).scrollTop();
         var nav 	   	= $('.nav-links');
 
@@ -12,17 +12,8 @@ jQuery(document).ready(function($) {
         } else {
             nav.removeClass('second-state');
         }
-    });
+    });*/
 
-    $('.slider').slick({
-      arrows: false,
-      dots: false,
-      centerMode: false,
-      slidesToShow: 1,
-      infinite: true,
-      adaptiveHeight: false,
-      fade: false,
-      variableWidth: false
-    });
+    window.alert("This site is still under construction. Please check back later for updates.");
 
 });
