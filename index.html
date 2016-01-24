@@ -110,6 +110,20 @@
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script type="text/javascript" src="js/slick.min.js"></script>
       <script type="text/javascript" src="js/script.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('.slider').slick({
+            arrows: false,
+            dots: false,
+            centerMode: false,
+            slidesToShow: 1,
+            infinite: true,
+            adaptiveHeight: false,
+            fade: false,
+            variableWidth: false
+          });
+        });
+      </script>
 
     </body>
 
