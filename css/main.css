@@ -103,7 +103,7 @@ nav.main a {
     -webkit-transition-duration: .2s;
     -webkit-transition-timing-function: ease-in-out;
 
-    -webkit-transition-property: border-bottom;
+    -webkit-transition-property: margin-bottom;
     -webkit-transition-duration: .1s;
     -webkit-transition-timing-function: ease-in-out;
 }
@@ -137,7 +137,7 @@ nav > ul > li > a:active {
 }
 
 .about > .image > article {
-    margin-left: 5%;
+    margin-left: 15%;
     width: 20%;
 }
 
@@ -171,7 +171,7 @@ aside.sidebar {
 section {
     margin: 2% 0;
     box-shadow:0 1px 2px #aaa;
-    animation: slide-up 1s;
+    animation: slide-right 1s;
     border-radius: 3px;
     line-height: 1.5em;
 }
@@ -209,7 +209,7 @@ div.subcontent {
 }
 
 #social-icons img {
-    width: 90px;
+    width: 100px;
     padding: 5px;
 }
 
@@ -219,8 +219,8 @@ div.subcontent {
 }
 
 #social-box {
-  float: left;
-  width: 64%;
+  margin-left: 15%;
+  width: 20%;
 }
 
 #social-box h1 {
@@ -246,7 +246,6 @@ article, aside, #footer, #social-box {
     margin: 2%;
     box-shadow:0 1px 2px #aaa;
     background: #fff;
-    animation: slide-up 1s;
     border-radius: 3px;
     color: #555;
     line-height: 1.5em;
