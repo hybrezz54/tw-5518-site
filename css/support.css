@@ -27,11 +27,12 @@ h1, p {
 
 .column {
   display: table-cell;
+  font-size: 150%;
 }
 
 .column > div {
   border: 1px solid #000;
-  height: 450px;
+  height: 625px;
 }
 
 .column > div > h1, p {
