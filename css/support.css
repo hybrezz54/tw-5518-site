@@ -32,7 +32,12 @@ h1, p {
 
 .column > div {
   border: 1px solid #000;
-  height: 625px;
+  height: 675px;
+}
+
+.button-holder {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column > div > h1, p {
@@ -41,3 +46,4 @@ h1, p {
   margin-left: 10px;
   margin-right: 10px;
 }
+
