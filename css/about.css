@@ -37,6 +37,10 @@ h1, p {
   vertical-align: middle;
 }
 
+.submit {
+  /*vertical-align: middle;*/
+}
+
 .column > img {
   text-align: center;
   width: 80%;
