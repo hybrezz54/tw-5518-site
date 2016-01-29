@@ -24,3 +24,22 @@ h1, p {
   font-size: 36px;
   letter-spacing: 2px;
 }
+
+.subcontent > #left-column {
+    padding: 1.5%;
+    width: 44%;
+    display: inline-block
+    
+}
+
+.subcontent > #right-column {
+    padding: 1.5%;
+    width: 43%;
+    float: right;
+    display: inline-block;
+}
+
+.bronze, .silver, .gold, .platinum, .diamond, .technowolf {
+    margin: .25%
+    border-bottom: 1px solid #888;
+}
