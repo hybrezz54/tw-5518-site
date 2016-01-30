@@ -72,12 +72,10 @@ nav.main > ul {
     float: right;
 }
 
-nav.second-state {
+/*nav.second-state {
     height: 20px
     text-align: center;
-    /*-webkit-transition: height 2s; */
-    /*transition: height 2s;*/
-}
+}*/
 
 nav.main li a {
     padding-top: 15px;
@@ -141,6 +139,36 @@ nav > ul > li > a:active {
     width: 20%;
 }
 
+.spacer-socialMedia {
+  height: 50px;
+}
+
+.socialmedia-buttons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  border-bottom: 3px #aaa solid;
+}
+
+.socialmedia-buttons li {
+  display: inline;
+  text-align: center;
+  margin: 10px;
+
+}
+
+.social-media {
+    font-size: 125%;
+    border-top: 3px #aaa solid;
+    border-bottom: 3px #aaa solid;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.social-media h1 {
+  margin-left: 15%;
+}
+
 article {
     width: 64%;
     display: block;
@@ -159,13 +187,10 @@ article.feature {
     width: 64%
 }
 
-aside {
-    float: right;
-    display: block;
-}
-
 aside.sidebar {
-    width: 60%;
+    float: right;
+    width: 30%;
+    display: block
 }
 
 section {
@@ -214,7 +239,7 @@ div.subcontent {
 }
 
 #social-icons{
-    margin: auto;
+    /*margin: auto;*/
     display: inline;
 }
 
