@@ -169,6 +169,10 @@ nav > ul > li > a:active {
   margin-left: 15%;
 }
 
+.fb-page {
+  display: hidden;
+}
+
 article {
     width: 64%;
     display: block;
