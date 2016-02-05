@@ -13,6 +13,12 @@ h1, p {
   top: 60%;
 }
 
+.link {
+  font-size: 190%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .title > .subcontent > h1 {
   letter-spacing: 2px;
   font-size: 48px;
