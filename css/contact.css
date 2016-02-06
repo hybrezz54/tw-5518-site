@@ -1,0 +1,24 @@
+#map {
+	display: block;
+	float: left;
+	margin: 1%;
+}
+.spacer {
+  margin-top: 2%;
+  border-bottom: 3px #aaa solid;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+#social-box {
+	float: right;
+	width: 45%;
+}
+
+.subcontent {
+	display: inline;
+}
+
+#contact-info { 
+	text-align: center;
+}
