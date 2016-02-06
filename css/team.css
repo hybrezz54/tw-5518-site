@@ -1,0 +1,26 @@
+h1, p {
+  font-family: 'Open Sans';
+}
+
+.title {
+  background-image: url('../img/banner.png');
+  height: 300px;
+  width: 100%;
+}
+
+.title > .subcontent {
+  position: relative;
+  top: 60%;
+}
+
+.title > .subcontent > h1 {
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+
+.coming-soon h1 {
+  margin: 50px auto 30% auto;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
