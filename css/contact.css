@@ -3,6 +3,26 @@
 	float: left;
 	margin: 1%;
 }
+
+.title {
+  background-image: url('../img/banner.png');
+  height: 300px;
+  width: 100%;
+  margin-bottom: 1%;
+
+}
+
+.title > .subcontent {
+  position: relative;
+  top: 60%;
+}
+
+.title > .subcontent > h1 {
+  letter-spacing: 2px;
+  font-size: 48px;
+  margin-left: 10%;
+}
+
 .spacer {
   margin-top: 2%;
   border-bottom: 3px #aaa solid;
@@ -11,14 +31,16 @@
 }
 
 #social-box {
-	float: right;
-	width: 45%;
+	width: 20%;
 }
 
 .subcontent {
-	display: inline;
+	display: inline-block;
 }
 
 #contact-info { 
-	text-align: center;
+	width: 30%;
+	display: inline-block;
+	margin-left: 2%;
 }
+
