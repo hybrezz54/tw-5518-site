@@ -46,7 +46,7 @@ body {
 }
 
 #logo > a > img {
-  width: 100%;
+  width: 80%;
 }
 
 nav.side {
@@ -59,7 +59,7 @@ nav.side {
 nav.main {
     background: #A80000;
     /*background: -webkit-linear-gradient(#cc2d2d, #c70000);
-    background: -o-linear-gradient(#cc2d2d, #c70000);
+    background: -o-linear-gradi;ent(#cc2d2d, #c70000);
     background: -moz-linear-gradient(#cc2d2d, #c70000);
     background: linear-gradient(#cc2d2d, #c70000);*/
     text-align: center;
@@ -68,14 +68,10 @@ nav.main {
 }
 
 nav.main > ul {
-    transform: translateY(80%);
+    margin-top: 1.8%;
+    /*transform: translateY(80%);*/
     float: right;
 }
-
-/*nav.second-state {
-    height: 20px
-    text-align: center;
-}*/
 
 nav.main li a {
     padding-top: 15px;
