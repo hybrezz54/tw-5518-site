@@ -66,20 +66,24 @@ body {
   border: solid black 2px;
 }
 
+#techno {
+  border: 4px solid red;
+}
+
 #gold {
   border: 4px solid #daa520;
 }
 
 #platinum {
-  border: 2px solid #bec3c9;
+  border: 4px solid #bec3c9;
 }
 
 #silver {
-  border: 2px solid #C0C0C0;
+  border: 4px solid #C0C0C0;
 }
 
 #bronze {
-  border: 2px solid #8c7853;
+  border: 4px solid #8c7853;
 }
 
 
