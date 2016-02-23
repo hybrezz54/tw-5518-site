@@ -43,20 +43,14 @@ body {
 
 #logo {
   float: left;
-  width: 480px;
+  width: 25%;
 }
 
 #logo > a > img {
   width: 95%;
+  margin-top: 2%;
 }
-/*
-nav.side {
-  background: #7f7f7f;
-  width: 20%;
-  height: 100%;
-  float: right;
-}
-*/
+
 nav.main {
     background: #A80000;
     /*background: -webkit-linear-gradient(#cc2d2d, #c70000);
@@ -70,14 +64,15 @@ nav.main {
 
 nav.main > ul {
     margin-top: 2%;
+    width: 55%;
     /*margin-right: 15%; */
     /*transform: translateY(80%);*/
-    float: right;
+    float: right
 }
 
 nav.main li a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
 }
 
 nav.main > ul > li {
@@ -117,7 +112,7 @@ nav > ul > li > a:active {
 }
 
 .spacer {
-    height: 120px;
+    height: 105px;
 }
 
 .about {
