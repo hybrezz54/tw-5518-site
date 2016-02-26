@@ -30,3 +30,7 @@ h1, p {
   font-size: 36px;
   letter-spacing: 2px;
 }
+
+li > a {
+  font-size: 18px;
+}
