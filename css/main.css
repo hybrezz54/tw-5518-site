@@ -427,6 +427,9 @@ article, aside, #footer, #social-box {
 
   div.subcontent {
     width: 84%
+    
   }
-
+.video-container{
+  display: inline-table;
+}
 }
