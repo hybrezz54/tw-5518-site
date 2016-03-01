@@ -127,7 +127,6 @@
                             <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
                             <button class="pswp__button pswp__button--share" title="Share"></button>
-        
 
                             <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
@@ -189,10 +188,12 @@
             </div>
 
         </div>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/photoswipe.min.js"></script> <!-- Core JS file -->
-        <script src="js/photoswipe-ui-default.min.js"> <!-- UI JS file -->
-        var initPhotoSwipeFromDOM = function(gallerySelector) {
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/photoswipe.min.js"></script> <!-- Core JS file -->
+      <script src="js/photoswipe-ui-default.min.js"></script> <!-- UI JS file -->
+
+      <script type="text/javascript">
+      var initPhotoSwipeFromDOM = function(gallerySelector) {
         // parse slide data (url, title, size ...) from DOM elements
         // (children of gallerySelector)
         var parseThumbnailElements = function(el) {
@@ -393,7 +394,7 @@
 
       // execute above function
       initPhotoSwipeFromDOM('.my-gallery');
-        </script> 
+      </script>
 
     </body>
 
