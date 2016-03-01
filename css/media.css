@@ -43,3 +43,10 @@ h1, p {
 .my-gallery figcaption {
   display: none;
 }
+
+.subcontent h2 {
+  border-bottom: 2px #aaa solid;
+  margin: 0;
+  margin-top: 300px;
+}
+
