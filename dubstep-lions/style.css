@@ -1,0 +1,203 @@
+/*
+Theme Name: Dubstep Lions
+Author: hybrezz54
+Author URI: https://github.com/hybrezz54
+Version: 1.0
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #ddd;
+}
+
+#main {
+  padding-top: 125px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5d8cc2;
+}
+
+hr {
+  border-color: #444;
+  border-top-width: 2px;
+}
+
+em {
+  font-size: 16px;
+}
+
+@media(min-width:768px) {
+    #main {
+        padding-top: 75px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.slider {
+  background-color: #7e0001;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.img-banner {
+    height: 600px;
+}
+
+.img-banner p {
+    width: 500px;
+}
+
+.jumbotron {
+  background-color: #a80000;
+  color: #fff;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#header {
+  background-color: #a80000;
+  -webkit-box-shadow:0px 2px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow:0px 2px 1px rgba(0, 0, 0, 0.25);
+  box-shadow:0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+#header li:hover {
+  background-color: #7e0001 !important;
+}
+
+#header a {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 12px;
+}
+
+#footer {
+  background-color: #a80000;
+  color: #fff;
+  font-size: 12px;
+  padding: 20px 0px;
+}
+
+#main-banner {
+  background-image: url(img/robot2.jpg);
+  height: 600px;
+}
+
+#main-banner p {
+    width: 500px;
+}
+
+#menu-item-122 a {
+  font-size: 0;
+  padding: 15px 25px;
+  display: block;
+  background-image: url(img/ic_menu_white_24dp_1x.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.open .dropdown-toggle {
+  background-color: #7e0001 !important;
+}
+
+#navbar .dropdown-menu {
+  background-color: #a80000;
+}
+
+#navbar .dropdown-menu a {
+  padding: 10px;
+}
+
+#navbar .dropdown-menu a:hover {
+  background-color: #7e0001;
+}
+
+#notif {
+  background-color: transparent;
+  color: #222;
+}
+
+#notif hr {
+  border-color: #444;
+}
+
+.divider-vertical {
+  height: 50px;
+  margin: 5% 10px;
+  border-right: 1px solid #fff;
+}
+
+.img-banner {
+  background-attachment: fixed;
+  background-repeat: round;
+  /*min-height: 400px;*/
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.navbar-nav {
+  margin: 7.5px 15px;
+}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-nav .active a {
+  background-color: #7e0001 !important;
+}
+
+.vert {
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+/***** PAGE STYLES *****/
+#main.notop {
+  padding-top: 80px !important;
+}
+
+div.page {
+  background-color: #a22;
+}
+
+div.logo img {
+  height: 130px;
+}
+
+/***** BOX TEMPLATE STYLES *****/
+div.box {
+  margin: 0 0 30px 30px;
+  padding: 20px;
+  background-color: #EEE;
+}
+
+article < a {
+  color #000;
+}
+
+article < hr {
+  color: #333;
+}
