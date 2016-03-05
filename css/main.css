@@ -125,7 +125,7 @@ nav > ul > li > a:active {
 }
 
 .about .image {
-    background-image: url("../img/home-page.png");
+    background: url("../img/home-page.png") repeat fixed 100%;
     /*background-position: cover;*/
 /*    height: 200%;
     width: 100%;*/
@@ -143,7 +143,7 @@ nav > ul > li > a:active {
 }
 
 .spacer-socialMedia {
-  height: 50px;
+  height: 35px;
 }
 
 .fb-page {
