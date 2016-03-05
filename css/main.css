@@ -45,7 +45,7 @@ body {
   float: left;
   width: 25%;
   display: inline-block;
-  
+
 }
 
 #logo > a > img {
@@ -136,6 +136,7 @@ nav > ul > li > a:active {
 .about > .image > article {
     margin-left: 2%;
     margin-top: 2%;
+    margin-left: 10%;
     width: 18%;
     font-size: 155%;
     text-align: center;
@@ -431,5 +432,5 @@ article, aside, #footer, #social-box {
   div.subcontent {
     width: 84%
   }
-  
+
 }
