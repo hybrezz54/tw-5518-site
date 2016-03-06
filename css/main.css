@@ -127,11 +127,13 @@ nav > ul > li > a:active {
 }
 
 .about .image {
-    background: url("../img/home-page.png") repeat fixed 100%;
+    background: url("../img/home-page.png");
     /*background-position: cover;*/
 /*    height: 200%;
     width: 100%;*/
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
