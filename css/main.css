@@ -1,11 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 body {
     font-family: 'Arial';
     background: #ffffff;
+    margin-right: 0%;
 }
 
 .clearfix {
@@ -140,9 +142,9 @@ nav > ul > li > a:active {
     width: 25%;
     font-size: 155%;
     text-align: center;
-    opacity: 0.8;
-    color: #fff;
-    text-shadow: 2px 2px #000;
+    /*opacity: 0.8;*/
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000;
     background: none;
     box-shadow: none;
 }
