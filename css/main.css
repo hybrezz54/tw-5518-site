@@ -137,10 +137,14 @@ nav > ul > li > a:active {
     margin-left: 2%;
     margin-top: 2%;
     margin-left: 10%;
-    width: 18%;
+    width: 25%;
     font-size: 155%;
     text-align: center;
     opacity: 0.8;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    background: none;
+    box-shadow: none;
 }
 
 .spacer-socialMedia {
