@@ -8,6 +8,7 @@ body {
     font-family: 'Arial';
     background: #ffffff;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .clearfix {
