@@ -1,3 +1,5 @@
+/* our red hex code - #a80000 */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -31,7 +33,7 @@ body {
 }
 
 #header {
-    background: #A80000;
+    background: #a80000;
     width: 100%;
     top: 0;
     box-shadow: 0px 2px 1px rgba(0,0,0,0.25);
