@@ -130,8 +130,7 @@ nav > ul > li > a:active {
 }
 
 .about .image {
-    background: url("../img/home-page.png") absolute 100%;
-    background-attachment: fixed;
+    background: url("../img/home-page.png") fixed 100%;
     background-size: cover;
     overflow: hidden;
 }
