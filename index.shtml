@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="The official website for FRC team 5518, the Techno Wolves">
+        <meta name="keywords" content="FIRST Robotics Competition,robotics,NSCU,FRC,FIRST">
+        <title>Techno Wolves</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    </head>
+
+
+    
+
+    <body>
+      <div id="wrapper">
+
+        <!--#include file="header.html" -->
+
+        <div class="spacer"></div>
+
+        <div id="content">
+
+            <div id="img-slider">
+              <div class="slider">
+                <div>
+                  <img class="feat-img" style="position:relative; top:-300px;" src="img/DSC_0250.jpg" />
+                </div>
+                <div>
+                  <img class="feat-img" style="position:relative; top:-300px;" src="img/pit01.JPG" />
+                </div>
+                <div>
+                  <img class="feat-img" style="position:relative; top:-300px;" src="img/IMG_8534.JPG" />
+                </div>
+              </div>
+            </div>
+
+            <div class="about">
+                <div class="image">
+                  <article>
+                      <h1>About Us</h1>
+
+                      <p>Techno Wolves Team 5518 is a two year old <em>FIRST</em> Robotics Competition team established in 2014 and based in Raleigh, North Carolina.
+                        Our goal is not only to build an awesome robot, but also to build a better future by enriching our schools and communities through STEM <small>(Science, Technology, Engineering, and Math)</small> and the values of <em>FIRST</em> such as <em>Coopertition®</em> and <em>Gracious Professionalism®</em>.
+                      </p>
+
+                  </article>
+                </div>
+            </div>
+
+            <div class="spacer-socialMedia"></div>
+
+            <div class="social-media">
+              <h1>Social Media</h1>
+            </div>
+
+            <div class="subcontent">
+              <aside class="sidebar">
+                <a class="twitter-timeline" href="https://twitter.com/technowolves" data-widget-id="694239840498499584">Tweets by @technowolves</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                </script>
+              </aside>
+             <article id="social-box" class="center">
+                 <h1>Follow us!</h1>
+                 <div id="social-icons">
+                     <a href="mailto:name@host.com?subject=The%20Techno%20Wolves"><img src="img/icons/google+.png" target="_blank"></a>
+                     <a href="https://www.instagram.com/technowolves/"><img src="img/icons/instagram.png" target="_blank"></a>
+                     <a href="https://www.facebook.com/TechnoWolves/"><img src="img/icons/facebook.png" target="_blank"></a>
+                     <a href="https://twitter.com/technowolves"><img src="img/icons/twitter.png" target="_blank"></a>
+                     <a href="http://technowolves5518.tumblr.com/"><img src="img/icons/tumblr.png" target="_blank"></a>
+                 </div>
+             </article>
+            <article id="social-box" class="center">
+              <div class="video-container" style="margin-left: -8px">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/tAF-AJnNfFQ" frameborder="0" allowfullscreen></iframe>
+            </article>
+           </div>
+
+        </div>
+
+        <div style="height: 720px"></div>
+
+        <div id="footer">
+
+            <small>
+                &copy; 2016 Techno Wolves Robotics Booster Club.
+            </small>
+
+            <div>
+              <a href="http://www.dreamhost.com/green.cgi">
+              <img border="0" alt="Green Web Hosting! This site hosted by DreamHost." src="http://www.technowolves.org/wp-content/themes/technowolve/technowolve/library/images/green1.png" class="slide" alt="" height="32" /></a>
+              <a href="http://onlyoffice.com?campaign=nonprofit" target="_blank" style="cursor: pointer;" rel="me nofollow">
+                <img alt="We Use ONLYOFFICE™ Online Office" title="We Use ONLYOFFICE™ Online Office" src='http://www.onlyoffice.com/images/banners/en-US/468-x-60-06.gif' height="40" />
+              </a>
+            </div>
+
+        </div>
+
+      </div>
+
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="js/slick.min.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
+            dots: true,
+            centerMode: false,
+            slidesToShow: 1,
+            infinite: true,
+            adaptiveHeight: false,
+            fade: false,
+            variableWidth: false,
+            cssEase: 'linear'
+           
+          });
+        });
+      </script>
+
+    </body>
+
+</html>
