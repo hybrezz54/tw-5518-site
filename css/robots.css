@@ -68,6 +68,5 @@ ul li {
 	height: auto;
 	margin-left: 60%;
 	margin-bottom: 10%;
-	border-style: black;
-	border-width: 2px;
+	border: 2px solid black;
 }
